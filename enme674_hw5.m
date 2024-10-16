@@ -25,7 +25,7 @@ Q_c = F*(NL + NL2)
 K_new = ((A*E)/(3*l))*[0, 0, 0;
                     0, 16, -8;
                     0, -8, 7];
-Q_t = Q_c + Q_d;
+Q_t = Q_c + Q_d
 u = Q_t/K_new
 %Part F
 Q_T_new = [7 -8 1]*u.';
